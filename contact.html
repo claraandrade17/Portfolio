@@ -3,8 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>She Codes - Portfolio</title>
+    <title>contact - Clara Mendes</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Contact Clara. Clara is a front-end engineer based in Portugal."
+    />
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
@@ -36,7 +40,7 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="index.html" title="Homepage">
           <img src="images/logo.png" alt="Logo" class="logo" />
         </a>
         <button
@@ -53,16 +57,24 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              <a
+                class="nav-link"
+                aria-current="page"
+                href="/"
+                title="Homepage"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
+              <a class="nav-link" href="about.html" title="About Page">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="work.html">Work</a>
+              <a class="nav-link" href="work.html" title="Work Page">Work</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="contact.html">Contact</a>
+              <a class="nav-link active" href="contact.html" title="Contact Page"
+                >Contact</a
+              >
             </li>
           </ul>
         </div>
@@ -73,17 +85,66 @@
         <h1 class="contact mb-5">☎️ Let's get in touch!</h1>
 
         <h3>
-          <i class="fa-solid fa-envelope-open-text"></i> Email
+          Email
         </h3>
         <p>
           <a href="mailto:claraandrade17@gmail.com"c cl>claraandrade17@gmail.com</a>
         </p>
         <h3>
-          <i class="fa-brands fa-linkedin"></i> LinkedIn
+          Linkedin
         </h3>
         <p>
           <a href="www.linkedin.com/in/clara-mendes-29827b174" target="_blank"> Clara Andrade</a>
         </p>
     </div>
+    <footer class="container">
+      <div
+        class="contact-box justify-content-between align-items-center mb-5 d-none d-md-flex"
+      >
+        <div>
+          <h3>Work Inquiry</h3>
+          <p class="text-muted">Let's work together</p>
+        </div>
+        <div>
+          <a
+            href="contact.html"
+            class="btn btn-branding mt-5"
+            title="Contact Clara"
+            >Contact Me</a
+          >
+        </div>
+      </div>
+      <div class="d-flex justify-content-center">
+        <a
+          href="mailto:claraandrade17@gmail.com"
+          class="email-link"
+          title="Email Clara"
+        >
+          claraandrade17@gmail.com</a
+        >
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a
+          href="www.linkedin.com/in/clara-mendes-29827b174"
+          target="_blank"
+          title="Linkedin Profile"
+        >
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a
+          href="https://github.com/claraandrade17"
+          target="_blank"
+          title="GitHub Profile"
+        >
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+      <p class="text-center">
+        👾 This project was coded by Clara Mendes, and it is
+        <a href="https://github.com/claraandrade17/Portfolio" target="_blank"
+          >open-sourced
+        </a>
+      </p>
+    </footer>
   </body>
 </html>
